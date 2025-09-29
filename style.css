@@ -61,3 +61,42 @@ footer {
     color: white;
     border-radius: 8px;
 }
+
+
+/* Images */
+img {
+    max-width: 30%;   /* keeps the image from overflowing its container */
+    height: auto;      /* maintains aspect ratio */
+}
+
+.home-image {
+    float: inline-end;
+    width: 20%;        
+    max-width: 180px;  
+    height: auto;
+    margin: 1 1rem 1rem 1rem; 
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.equipment-image {
+    float: right;             
+    max-width: 40%;          
+    height: auto;
+    margin: 0 0 1rem 1rem;     
+    border-radius: 6px;        
+}
+
+
+/* Links */
+main a {
+    color: #FFEA70;          /* normal link color (blueish) */
+    text-decoration: none;   /* remove underline */
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #FFD700;          /* darker blue when hovering */
+    text-decoration: underline;
+}
+
