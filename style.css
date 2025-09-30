@@ -87,6 +87,28 @@ img {
     border-radius: 6px;        
 }
 
+.celebration {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.home-image-2 {
+    max-width: 50%;        
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+}
+
+.celebration figcaption samp {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-style: italic;
+    color: #f1f1f1;  
+}
+
 
 /* Links */
 main a {
